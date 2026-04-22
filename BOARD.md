@@ -3,8 +3,8 @@
 > 33 curated advisors for code review, architecture decisions, and plan critique.  
 > Inject into any coding project to get advisory voices that challenge your thinking.
 
-**Repo:** https://github.com/YOUR-USERNAME/the-board  
-**Raw file pattern:** `https://raw.githubusercontent.com/YOUR-USERNAME/the-board/main/profiles/{folder}/{file}.md`
+**Repo:** https://github.com/loyl-ee/the-board  
+**Raw file pattern:** `https://raw.githubusercontent.com/loyl-ee/the-board/main/profiles/{folder}/{file}.md`
 
 ---
 
