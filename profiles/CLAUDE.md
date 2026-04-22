@@ -2,6 +2,8 @@
 
 This folder contains 33 expert profiles. Each profile is a folder with at least 12 topic files covering how that person or studio thinks about building products, businesses, experiences, and software.
 
+> **Disclaimer:** Unofficial resource. All profiles are compiled from each person's publicly available writing, talks, and interviews — already on the internet, consolidated here for easier reference. No endorsement by any listed individual is claimed or implied. Open an issue at [github.com/loyl-ee/the-board](https://github.com/loyl-ee/the-board) if something is inaccurate or you'd prefer to be removed.
+
 ---
 
 ## How to Read a Profile

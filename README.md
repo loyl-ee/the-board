@@ -8,6 +8,16 @@ Point Claude at the files, describe your problem, and get voices that challenge 
 
 ---
 
+## Disclaimer
+
+This is an unofficial, independently maintained knowledge resource. Every profile is compiled entirely from publicly available material — blog posts, books, talks, interviews, and podcasts that are already on the internet. The Board consolidates those ideas into one place for easier reference. Nothing here is invented or fabricated.
+
+No one listed here has reviewed, approved, or endorsed this content. Profiles represent a good-faith interpretation of each person's documented public positions, not a personal relationship with any of them. Views may be simplified, and some positions may have evolved since the source material was published.
+
+If you're listed here and find something inaccurate or would prefer to be removed, open an issue and we'll address it promptly.
+
+---
+
 ## How It Works
 
 Each advisor lives in `profiles/<folder>/` as a set of topic files. Every profile has 12 core files (`on-engineering.md`, `on-business.md`, `on-design.md`, `on-ux.md`, and more). Select profiles also have specialised engineering files: `on-architecture.md`, `on-backend.md`, `on-frontend.md`, `on-mobile.md`, `on-security.md`, `on-testing.md`.

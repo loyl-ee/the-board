@@ -2,6 +2,8 @@
 
 ## What This Is
 
+> **Disclaimer:** Unofficial resource. All profiles are compiled from each person's publicly available writing, talks, and interviews — already on the internet, consolidated here for easier reference. No endorsement by any listed individual is claimed or implied.
+
 The Board is a curated database of 33 people and studios whose documented philosophies serve as advisory voices across every product, business, and design decision. Each profile lives in `profiles/<name>/` and contains 12 topic files covering their thinking on business, product, design, UX, customer journey, web, safety, engineering, and more.
 
 **How to use it:** Read the Decision Matrix below to identify who to consult. Then ask Claude to read specific topic files from those profiles. You can pull one file from one person, or read the same topic (e.g., `on-ux.md`) across five people simultaneously.
