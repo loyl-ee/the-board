@@ -14,7 +14,7 @@ This is an unofficial, independently maintained knowledge resource. Every profil
 
 No one listed here has reviewed, approved, or endorsed this content. Profiles represent a good-faith interpretation of each person's documented public positions, not a personal relationship with any of them. Views may be simplified, and some positions may have evolved since the source material was published.
 
-If you're listed here and find something inaccurate or would prefer to be removed, open an issue and we'll address it promptly.
+If you're listed here and find something inaccurate or would prefer to be removed, open an issue or DM [@loylee on X](https://x.com/loylee) and we'll address it promptly.
 
 ---
 

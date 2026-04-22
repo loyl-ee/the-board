@@ -6,7 +6,7 @@
 **Repo:** https://github.com/loyl-ee/the-board  
 **Raw file pattern:** `https://raw.githubusercontent.com/loyl-ee/the-board/main/profiles/{folder}/{file}.md`
 
-> **Disclaimer:** Unofficial resource. All profiles are compiled from each person's publicly available writing, talks, and interviews — already on the internet, consolidated here for easier reference. No endorsement by any listed individual is claimed or implied. Open an issue if something is inaccurate or you'd prefer to be removed.
+> **Disclaimer:** Unofficial resource. All profiles are compiled from each person's publicly available writing, talks, and interviews — already on the internet, consolidated here for easier reference. No endorsement by any listed individual is claimed or implied. Open an issue or DM [@loylee on X](https://x.com/loylee) if something is inaccurate or you'd prefer to be removed.
 
 ---
 
