@@ -4,7 +4,7 @@
 
 The Board is a knowledge database of 33 people and studios — founders, engineers, designers, indie developers, AI researchers — whose documented philosophies serve as advisory voices across code reviews, architecture decisions, product critiques, and business calls.
 
-Point Claude at the files, describe your problem, and get voices that challenge your thinking before you build, ship, or commit.
+Point your AI at the files, describe your problem, and get voices that challenge your thinking before you build, ship, or commit. Works with Claude, Cursor, Copilot, Gemini, ChatGPT — any model that can read a file or fetch a URL.
 
 ---
 
@@ -22,15 +22,26 @@ If you're listed here and find something inaccurate or would prefer to be remove
 
 Each advisor lives in `profiles/<folder>/` as a set of topic files. Every profile has 12 core files (`on-engineering.md`, `on-business.md`, `on-design.md`, `on-ux.md`, and more). Select profiles also have specialised engineering files: `on-architecture.md`, `on-backend.md`, `on-frontend.md`, `on-mobile.md`, `on-security.md`, `on-testing.md`.
 
-You tell Claude which files to read, describe your decision, and get advisory perspectives grounded in each person's actual documented thinking.
+You tell your AI which files to read, describe your decision, and get advisory perspectives grounded in each person's actual documented thinking.
 
 ---
 
 ## Setup
 
+The Board is plain markdown — it works with any AI that can read files or fetch URLs. The setup file name depends on your tool:
+
+| Tool | Config file |
+|---|---|
+| Claude Code | `CLAUDE.md` |
+| Cursor | `.cursorrules` |
+| GitHub Copilot | `.github/copilot-instructions.md` |
+| Gemini CLI | `GEMINI.md` |
+| Windsurf | `.windsurfrules` |
+| ChatGPT / other | Paste the URL directly into your prompt |
+
 ### Method 1 — GitHub URL (no download required)
 
-Add this to your project's `CLAUDE.md`:
+Add this to your tool's config file:
 
 ```markdown
 ## The Board
@@ -40,11 +51,9 @@ for the roster, engineering files, and decision matrix. Advisor files follow thi
 https://raw.githubusercontent.com/loyl-ee/the-board/main/profiles/{folder}/{file}.md
 ```
 
-Then in any session:
+For tools without a config file, paste the URL directly into your prompt:
 
-> "Consult the Board. Read `on-engineering.md` from `dhh` and `simon-willison`, then review this architecture decision: [describe it]"
-
-Claude will fetch the files from GitHub and apply the advisory voices.
+> "Fetch https://raw.githubusercontent.com/loyl-ee/the-board/main/BOARD.md then read `on-engineering.md` from `dhh` and `simon-willison`. Review this architecture: [describe it]"
 
 ### Method 2 — Local copy (faster, works offline)
 
@@ -53,7 +62,7 @@ git clone https://github.com/loyl-ee/the-board.git
 cp -r the-board/profiles/ your-project/the-board/
 ```
 
-Then add to your project's `CLAUDE.md`:
+Then add to your tool's config file:
 
 ```markdown
 ## The Board

@@ -12,9 +12,11 @@
 
 ## Setup
 
+Works with any AI that can read files or fetch URLs — Claude, Cursor, Copilot, Gemini, ChatGPT, Windsurf, and more.
+
 **Method 1 — GitHub URL (no download)**
 
-Add this to your project's `CLAUDE.md`:
+Add this to your tool's config file (`CLAUDE.md`, `.cursorrules`, `GEMINI.md`, `.github/copilot-instructions.md`, etc.):
 
 ```markdown
 ## The Board
@@ -26,7 +28,7 @@ https://raw.githubusercontent.com/loyl-ee/the-board/main/profiles/{folder}/{file
 
 **Method 2 — Local copy**
 
-Copy or clone `profiles/` into your project, then reference it in your project's `CLAUDE.md`:
+Copy or clone `profiles/` into your project, then add to your tool's config file:
 
 ```markdown
 ## The Board
