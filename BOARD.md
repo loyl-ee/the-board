@@ -8,6 +8,31 @@
 
 ---
 
+## Setup
+
+**Method 1 — GitHub URL (no download)**
+
+Add this to your project's `CLAUDE.md`:
+
+```markdown
+## The Board
+When asked to consult The Board, fetch:
+https://raw.githubusercontent.com/loyl-ee/the-board/main/BOARD.md
+Advisor files follow this pattern:
+https://raw.githubusercontent.com/loyl-ee/the-board/main/profiles/{folder}/{file}.md
+```
+
+**Method 2 — Local copy**
+
+Copy or clone `profiles/` into your project, then reference it in your project's `CLAUDE.md`:
+
+```markdown
+## The Board
+Advisor profiles are in the-board/profiles/. See the-board/profiles/CLAUDE.md for the index.
+```
+
+---
+
 ## How to Invoke
 
 ```
