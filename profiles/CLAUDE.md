@@ -1,12 +1,12 @@
 # Profiles Directory — Reader's Guide
 
-This folder contains 33 expert profiles. Each profile is a folder with 11 topic files covering every aspect of how that person or studio thinks about building products, businesses, and experiences.
+This folder contains 33 expert profiles. Each profile is a folder with at least 12 topic files covering how that person or studio thinks about building products, businesses, experiences, and software.
 
 ---
 
 ## How to Read a Profile
 
-Each profile folder contains exactly these 11 files:
+Every profile contains these 12 files:
 
 | File | What it covers | Best for |
 |---|---|---|
@@ -19,8 +19,20 @@ Each profile folder contains exactly these 11 files:
 | `on-customer-journey.md` | Acquisition, retention, trust | Marketing, support, loyalty |
 | `on-web.md` | Web strategy, landing pages, distribution | Web presence, content, SEO |
 | `on-safety.md` | Ethics, privacy, responsibility | Risk, compliance, ethical decisions |
+| `on-engineering.md` | Code quality, architecture, technical philosophy | Engineering decisions, code review, tech choices |
 | `quotes.md` | Verbatim sourced quotes | Their actual voice; use in presentations |
 | `when-to-use.md` | When to invoke them, blind spots, pairings | Choosing who to consult |
+
+**Select profiles also contain specialised engineering files** where the advisor has rich, documented opinions:
+
+| File | Available for |
+|---|---|
+| `on-architecture.md` | dhh, mattt-thompson, chris-eidhof, linus-torvalds, simon-willison, brent-simmons, marco-arment, swyx-shawn-wang |
+| `on-backend.md` | dhh, linus-torvalds, simon-willison, mattt-thompson, pieter-levels, swyx-shawn-wang |
+| `on-frontend.md` | oliver-reichenstein-ia, amelia-wattenberger, dhh, brent-simmons, jordan-singer, pieter-levels |
+| `on-mobile.md` | marco-arment, david-smith, brent-simmons, steve-troughton-smith, sal-soghoian, algoriddim-djay, chris-eidhof |
+| `on-security.md` | simon-willison, dario-amodei, linus-torvalds, david-smith, marco-arment, demis-hassabis, amber-case, pieter-levels |
+| `on-testing.md` | linus-torvalds, chris-eidhof, dhh, mattt-thompson, simon-willison |
 
 **Always read `when-to-use.md` first** when you're unsure if someone is the right advisor for a question. It lists their blind spots and who they pair well with.
 

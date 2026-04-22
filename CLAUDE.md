@@ -192,6 +192,24 @@ Teaching with / using AI             → ethan-mollick, simon-willison, paul-hud
 Developer community building         → mattt-thompson, simon-willison, swyx-shawn-wang
 ```
 
+### Engineering & Code
+```
+Architecture decisions               → dhh, mattt-thompson, chris-eidhof, linus-torvalds, simon-willison
+Frontend engineering                 → oliver-reichenstein-ia, amelia-wattenberger, dhh, brent-simmons, jordan-singer
+Backend engineering                  → dhh, linus-torvalds, simon-willison, mattt-thompson, pieter-levels
+Security & privacy (engineering)     → simon-willison, dario-amodei, linus-torvalds, david-smith, marco-arment
+Mobile / iOS engineering             → marco-arment, david-smith, brent-simmons, steve-troughton-smith, sal-soghoian
+Testing strategy                     → linus-torvalds, chris-eidhof, dhh, mattt-thompson, simon-willison
+API design                           → mattt-thompson, chris-eidhof, dhh, simon-willison, linus-torvalds
+Code review & quality standards      → linus-torvalds, andy-hertzfeld, mattt-thompson, chris-eidhof
+Tech debt decisions                  → dhh, linus-torvalds, pieter-levels, simon-willison
+Shipping vs. refactoring             → pieter-levels, dhh, steve-jobs, linus-torvalds, marco-arment
+Monolith vs. microservices           → dhh (monolith), simon-willison (pragmatic), linus-torvalds (simple)
+Automation & scripting in products   → sal-soghoian, simon-willison, linus-torvalds
+AI engineering in products           → simon-willison, ethan-mollick, swyx-shawn-wang, amelia-wattenberger
+Over-engineering check               → pieter-levels, dhh, oliver-reichenstein-ia
+```
+
 ---
 
 ## How to Use in a Claude Session
@@ -209,7 +227,7 @@ Developer community building         → mattt-thompson, simon-willison, swyx-sh
 > "Read this `CLAUDE.md` Decision Matrix and tell me which profiles are most relevant for deciding whether to build native or web-first."
 
 ### Profile file reference
-All profiles contain these 11 files:
+All profiles contain these 12 files:
 - `overview.md` — Who they are and why they're on the team
 - `philosophy.md` — Core worldview and beliefs
 - `on-business.md` — Business, growth, monetisation
@@ -219,8 +237,11 @@ All profiles contain these 11 files:
 - `on-customer-journey.md` — Acquisition, retention, trust
 - `on-web.md` — Web strategy and presence
 - `on-safety.md` — Ethics, privacy, responsibility
+- `on-engineering.md` — Code quality, architecture, technical philosophy
 - `quotes.md` — Verbatim sourced quotes
 - `when-to-use.md` — Best use cases, blind spots, pairings
+
+Select profiles also contain specialised engineering files (`on-architecture.md`, `on-backend.md`, `on-frontend.md`, `on-mobile.md`, `on-security.md`, `on-testing.md`) — see `BOARD.md` for the full availability matrix.
 
 ---
 
